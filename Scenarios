@@ -1,0 +1,149 @@
+1. Given:
+    There is a parking lot in the mall
+   When:
+    A person enters in a 4 wheeler in the parking lot
+   Then:
+    A person has to get the parking ticket to enter the parking lot.
+
+2. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The parking lot is paid
+   Then:
+    Person in 4 wheeler has to pay for the parking ticket
+   And:
+    Person has to collect the parking ticket.
+
+3. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The parking lot is free but neet to collect the ticket
+   Then:
+    Person in 4 wheeler has to collect the parking ticket without paying any fee.
+
+4. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The parking lot has no tickets
+   Then:
+    Person in 4 wheeler has to drive in to park the vehicle without collecting any ticket.
+
+5. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The person is an official in the mall
+   Then:
+    Person in 4 wheeler has to drive in to park the vehicle without collecting any ticket
+   And:
+    Person has to park his/her 4 wheeler in the designated parking space for officials.
+
+6. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The person is an store owner in the mall
+   Then:
+    Person in 4 wheeler has to drive in to park the vehicle without collecting any ticket
+   And:
+    Person has to park his/her 4 wheeler in the designated parking space for store owners.
+
+7. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The person is an store owner in the mall
+   Then:
+    Person in 4 wheeler has to drive in to park the vehicle without collecting any ticket
+   And:
+    Person has to park his/her 4 wheeler in the designated parking space for store owners.
+
+8. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    The entire parking lot is full
+   Then:
+    The board says parking full
+   And:
+    Person is not allowed to enter the parking lot.
+
+9. Given:
+    A person in a 4 wheeler is at the entry of the parking lot
+   When:
+    One floor (B1) of parking lot is full
+   Then:
+    Then board would say parking full in B1
+   And:
+    Person would neet to go to B1
+   And:
+    Park the vehicle in B1.
+
+10. Given:
+     There is a parking lot in the mall
+    When:
+     A person enters in a 4 wheeler in the parking lot
+    Then:
+     There should ba person giving the parking ticket at the entry of parking lot
+
+11. Given:
+     A person enters in a 4 wheeler in the parking lot
+    When:
+     The person buys the ticket
+    Then:
+     There should be a display in the counter that shows the vacant lots
+    And:
+     There should be a decrement in the number of available lots.
+
+12. Given:
+     A person enters in a 4 wheeler in the parking lot after buying the ticket
+    When:
+     The person drives in B1
+    Then:
+     There is a person in B1 assisting with the parking
+    And:
+     The person in 4 wheeler parks his/her vehicle in the slot in B1.
+
+13. Given:
+     A person enters in a 4 wheeler in the parking lot after buying the ticket
+    When:
+     The person drives in B2
+    Then:
+     There is a person in B2 assisting with the parking
+    And:
+     The person in 4 wheeler parks his/her vehicle in the slot in B2.
+
+14. Given:
+     There is an exit in the parking lot
+    When:
+     The person in the 4 wheeler is exiting the parking lot
+    Then:
+     There is a person taking back the parking ticket at the exit of parking lot.
+
+15. Given:
+     The person is exiting the parking
+    When:
+     The person hands over the parking ticket back at the exit
+    Then:
+     There should be change in counter at the entry
+    And:
+     There should an increment in number of available lots.
+
+16. Given:
+     The person is exiting the parking
+    When:
+     The person hands over the parking ticket back at the exit
+    Then:
+     There should be change in counter at the entry
+    And:
+     There should an increment in number of available lots.
+
+17. Given:
+     The person is in 4 wheeler parking lot after buying the ticket
+    When:
+     The person has parked in the 4 wheeler lot
+    Then:
+     There should no change in the counter of 2 wheeler parking.
+
+18. Given:
+     The person is exiting the parking lot
+    When:
+     The person has exited the parking lot after handing back the ticket
+    Then:
+     There should no change in the counter of 2 wheeler parking.
