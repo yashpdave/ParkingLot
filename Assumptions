@@ -1,0 +1,19 @@
+Jotting down few assumptions related to Car Parking lot of a mall:
+
+1. There is parking ticket to enter the the parking lot of the mall.
+    a. Parking ticket is a paid ticket.
+    b. Parking ticket is an unpaid ticket (This is usually just to keep a track of vehicles entering and exiting the mall).
+2. There is no parking ticket to enter the parking lot of the mall.
+3. There is a sticker/pass given to the officials and store owners who use the same parking lot but do not need the parking ticket.
+4. There is no vacancy in the parking lot as the lot is full (Assuming there are total two floors B1 and B2): 
+    a. The entire parking lot is full(B1 and B2)
+    b. Only first floor is full (B1)
+    c. Only second floor is full (B2)
+
+Other assumptions:
+1. There is a person giving the parking ticket at the entry of parking lot.
+2. There is a person taking back the ticket at the exit of parking lot.
+3. There is a person on every floor (B1 and B2) to assist with the parking.
+4. There is a counter displayed at the entrance of parking that show available lots.
+
+Note: As the question in the assignment says it is a car parking, I am not considering 2 wheeler parking here. However, I will include 1 scenario where it would make sure the change in counter of 4 wheeler parking lot is unaffacted due to change in 2 wheeler parking lot and vice versa.
